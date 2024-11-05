@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    flex: 1;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .logo {
+    padding: 2%;
+    width: 20%;
+    height: auto;
+}
+
+
+header .input-field {
+    width: 40%;
+    padding: 2%;
+    padding-left: 8%;
+    border-radius: 10px;;
+    text-align: center;
+    height: 10px;
+    border: none;
+    color: black;
+    background-image: url('https://img.icons8.com/ios/50/000000/search--v1.png');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: 10%;
+    cursor: pointer;
+}
+
+header .market-icon {
+    width: 7%;
+    height: auto;
+    filter: invert(100%);
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.4rem;
+    position: relative;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+footer ul li {
+    margin: 1px;
+}
