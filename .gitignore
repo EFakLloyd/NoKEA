@@ -488,9 +488,6 @@ orleans.codegen.cs
 Nokea_CMS/appsettings-schema.Umbraco.Cms.json
 Nokea_CMS/appsettings.json
 Nokea_CMS/umbraco-package-schema.json
-Nokea_CMS/umbraco/Data/Umbraco.sqlite.db
-Nokea_CMS/umbraco/Data/Umbraco.sqlite.db-shm
-Nokea_CMS/umbraco/Data/Umbraco.sqlite.db-wal
 Nokea_CMS/umbraco/Data/TEMP/MainDom_fc9940113872ba288e3cf6706dd28963cc508d78.lock
 Nokea_CMS/umbraco/Data/TEMP/DistCache/30ef273a18be428be54408eba5f77cec17a6b114-lastsynced.txt
 Nokea_CMS/umbraco/Data/TEMP/ExamineIndexes/DeliveryApiContentIndex/segments_4
@@ -538,3 +535,5 @@ Nokea_CMS/umbraco/Data/TEMP/NuCache/NuCache.Content.db
 Nokea_CMS/umbraco/Data/TEMP/NuCache/NuCache.Media.db
 Nokea_CMS/umbraco/Data/TEMP/MediaCache/1/1/a/d/7/0/2/0/b4ff.png
 Nokea_CMS/umbraco/Data/TEMP/MediaCache/a/d/1/a/9/d/1/2/71b6.png
+Nokea_CMS/umbraco/Data/TEMP/ExamineIndexes/DeliveryApiContentIndex/segments_5
+Nokea_CMS/umbraco/Data/TEMP/ExamineIndexes/MembersIndex/segments_5
