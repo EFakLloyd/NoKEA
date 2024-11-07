@@ -1,0 +1,17 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@model IPublishedContent
+
+<div class="product-cart">
+    <div class="article-image">
+        @{
+            var productImage = Model.Value<MediaWithCrops>("articleImage");
+            if (productImage != null)
+            {
+                <img src="@productImage.MediaUrl()" style="width:200px" alt="Product Image" />
+            }
+        }
+    </div>
+    <div class="article-text">
+        @Model.Value("articleText")
+    </div>
+</div>
