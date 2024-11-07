@@ -1,0 +1,27 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "masterTemplate.cshtml";
+	var products = Model.Value<IEnumerable<IPublishedContent>>("products");
+}
+
+
+<section id="main" class="wrapper">
+	<div class="container">
+		<div id="content_container">
+			<div id="pageTitle">
+				<h1 id="pageTitle_title"> Stolar </h1>
+			</div>
+			<div id="main_container">
+				@if (products != null)
+				{
+					foreach (var product in products)
+					{
+						@Html.Partial("ProductCart", product)
+					}
+				}
+			</div>
+		</div>	
+	</div>
+</section>

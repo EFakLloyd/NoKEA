@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    flex: 1;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .logo {
+    padding: 2%;
+    width: 20%;
+    height: auto;
+}
+
+
+header .input-field {
+    width: 40%;
+    padding: 2%;
+    padding-left: 8%;
+    border-radius: 10px;;
+    text-align: center;
+    height: 10px;
+    border: none;
+    color: black;
+    background-image: url('https://img.icons8.com/ios/50/000000/search--v1.png');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: 10%;
+    cursor: pointer;
+}
+
+header .market-icon {
+    width: 7%;
+    height: auto;
+    filter: invert(100%);
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+
+#content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f5f5; 
+  }
+  
+ 
+  #pageTitle {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  
+    #pageTitle_title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333; 
+      margin: 0;
+    }
+  }
+  
+  
+  #main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px; 
+  }
+  
+  
+  .product-cart {
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    width: 200px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); 
+    }
+  
+    .article-image {
+      img {
+        width: 100%;
+        border-radius: 6px;
+      }
+    }
+  
+    .article-text {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #555;
+      margin-top: 0.8rem;
+    }
+  }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.4rem;
+    position: relative;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+footer ul li {
+    margin: 1px;
+}
